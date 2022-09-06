@@ -1,4 +1,4 @@
-/*const { chromium } = require('playwright');
+const { chromium } = require('playwright');
 const { test, expect } = require('@playwright/test');
 test.describe.configure({ mode: 'parallel' });
 
@@ -81,5 +81,3 @@ test.describe(`UI tests for checkbox`, () => {
         await expect(page.locator('//div[@id="result"]/span[1]')).toHaveText('You have selected :');
     });
 });
-
-*/

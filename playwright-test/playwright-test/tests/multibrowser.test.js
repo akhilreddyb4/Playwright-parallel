@@ -1,4 +1,4 @@
-/*const playwright = require('playwright');
+const playwright = require('playwright');
 const { test, expect } = require('@playwright/test');
 //test.describe.configure({ mode: 'parallel' });
 
@@ -43,5 +43,3 @@ for (const browserType of ["chromium", "firefox", "webkit"]) {
     });
 
 }
-
-*/
